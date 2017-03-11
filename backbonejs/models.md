@@ -1,5 +1,7 @@
 # Backbone Models Recipies
 
+Recipies about Backbone models and collections.
+
 ### Move a model in the collection
 
 You want to move `model1` after `model2` in a collection.
