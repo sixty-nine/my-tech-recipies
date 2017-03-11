@@ -12,7 +12,7 @@ Backbone.Collection.extend({
 });
 ```
 
-Source: `http://stackoverflow.com/a/18365468`
+Source: [`http://stackoverflow.com/a/18365468`](http://stackoverflow.com/a/18365468)
 
 ### Swap two models in a collection
 
@@ -26,4 +26,4 @@ Backbone.Collection.extend({
 });
 ```
 
-Source: `http://stackoverflow.com/a/10987580`
+Source: [`http://stackoverflow.com/a/10987580`](http://stackoverflow.com/a/10987580)
