@@ -1,6 +1,6 @@
 # Backbone Models Recipies
 
-### Move collection model at a specific position
+### Move a model after another model in the collection
 ```js
 Backbone.Collection.extend({
     // ...
@@ -11,3 +11,19 @@ Backbone.Collection.extend({
     // ...
 });
 ```
+
+Source: `http://stackoverflow.com/a/18365468`
+
+### Swap two models in a collection
+
+```js
+Backbone.Collection.extend({
+    // ...
+    swapItems : function(index1, index2) {
+        this.models[index1] = this.models.splice(index2, 1, this.models[index1])[0];
+    }
+    // ...
+});
+```
+
+Source: `http://stackoverflow.com/a/10987580`
