@@ -1,6 +1,9 @@
 # Backbone Models Recipies
 
-### Move a model after another model in the collection
+### Move a model in the collection
+
+You want to move `model1` after `model2` in a collection.
+
 ```js
 Backbone.Collection.extend({
     // ...
@@ -15,6 +18,8 @@ Backbone.Collection.extend({
 Source: [`http://stackoverflow.com/a/18365468`](http://stackoverflow.com/a/18365468)
 
 ### Swap two models in a collection
+
+You want to swap two models of a collection given by their indexes in the collection.
 
 ```js
 Backbone.Collection.extend({
