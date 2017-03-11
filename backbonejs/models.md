@@ -1,6 +1,6 @@
-# Backbone Models Recipies
+# Backbone Models Recipes
 
-Recipies about Backbone models and collections.
+Recipes about Backbone models and collections.
 
 ### Move a model in the collection
 

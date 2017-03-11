@@ -1,2 +1,2 @@
-# my-tech-recipies
-Cookbook of my technical recipies
+# my-tech-recipes
+Cookbook of my technical recipes
