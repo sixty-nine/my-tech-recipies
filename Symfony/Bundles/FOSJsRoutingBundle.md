@@ -7,9 +7,13 @@ relative or absolute URLs in the browser using the same routes as in the backend
 
 ### Installation
 
+###### Install the bundle
+
 ```bash
     composer require friendsofsymfony/jsrouting-bundle
 ```
+
+###### Register the bundle
 
 ```php
     # app/AppKernel.php
@@ -20,11 +24,15 @@ relative or absolute URLs in the browser using the same routes as in the backend
     );
 ```
 
+###### Register routing
+
 ```yaml
     # app/config/routing.yml
     fos_js_routing:
         resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
 ```
+
+###### Build assets
 
 ```bash
     app/console assets:install --symlink web
