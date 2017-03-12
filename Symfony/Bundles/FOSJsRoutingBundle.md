@@ -29,3 +29,19 @@ relative or absolute URLs in the browser using the same routes as in the backend
 ```bash
     app/console assets:install --symlink web
 ```
+
+### Expose routes
+
+```yaml
+    # app/config/config.yml
+    fos_js_routing:
+        routes_to_expose:
+            - my_route
+            - "^api_.*"
+```
+
+### Generate route client-side
+
+```js
+    var route = Routing.generate('my_route', {param1: 'foobar'});
+```
